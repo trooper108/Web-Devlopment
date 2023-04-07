@@ -41,7 +41,7 @@ btn.addEventListener("click", (e) => {
       flag = false;
     } else {
       task.style.backgroundColor = "#8359fa";
-      task.setAttribute("readonly","readonly");
+      task.setAttribute("readonly", "readonly");
       flag = true;
     }
   });
